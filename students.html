@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+
+<body>
+
+<header>
+
+    <h1>🎓 Student Registration</h1>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="students.html">Registration</a> |
+        <a href="internships.html">Internships</a> |
+        <a href="events.html">Events</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+
+<hr>
+
+<main>
+
+<h2>Register Your Profile</h2>
+
+<form>
+
+<fieldset>
+
+<legend>Personal Information</legend>
+
+<label for="name">Full Name:</label><br>
+<input type="text" id="name" name="name"
+       placeholder="Enter your full name" required>
+
+<br><br>
+
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email"
+       placeholder="example@gmail.com" required>
+
+<br><br>
+
+<label for="phone">Mobile Number:</label><br>
+<input type="tel" id="phone" name="phone"
+       placeholder="Enter mobile number">
+
+<br><br>
+
+<label>Gender:</label><br>
+
+<input type="radio" id="male" name="gender" value="Male">
+<label for="male">Male</label>
+
+<input type="radio" id="female" name="gender" value="Female">
+<label for="female">Female</label>
+
+<br><br>
+
+<label for="dob">Date of Birth:</label><br>
+<input type="date" id="dob" name="dob">
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+<legend>Education</legend>
+
+<label for="college">College Name:</label><br>
+<input type="text" id="college" name="college"
+       placeholder="Enter college name">
+
+<br><br>
+
+<label for="course">Course:</label><br>
+
+<select id="course" name="course">
+
+<option value="">Select Course</option>
+<option>B.Tech CSE</option>
+<option>B.Tech IT</option>
+<option>BCA</option>
+<option>MCA</option>
+<option>B.Sc Computer Science</option>
+
+</select>
+
+<br><br>
+
+<label for="year">Current Year:</label><br>
+
+<select id="year" name="year">
+
+<option>1st Year</option>
+<option>2nd Year</option>
+<option>3rd Year</option>
+<option>4th Year</option>
+
+</select>
+
+<br><br>
+
+<label for="cgpa">CGPA:</label><br>
+<input type="number" id="cgpa" name="cgpa"
+       min="0" max="10" step="0.01">
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+<legend>Skills</legend>
+
+<input type="checkbox" id="html" name="skills" value="HTML">
+<label for="html">HTML</label>
+
+<br>
+
+<input type="checkbox" id="css" name="skills" value="CSS">
+<label for="css">CSS</label>
+
+<br>
+
+<input type="checkbox" id="python" name="skills" value="Python">
+<label for="python">Python</label>
+
+<br>
+
+<input type="checkbox" id="java" name="skills" value="Java">
+<label for="java">Java</label>
+
+<br>
+
+<input type="checkbox" id="sql" name="skills" value="SQL">
+<label for="sql">SQL</label>
+
+</fieldset>
+
+<br>
+
+<fieldset>
+
+<legend>Resume</legend>
+
+<label for="resume">Upload Resume:</label><br>
+<input type="file" id="resume" name="resume">
+
+</fieldset>
+
+<br>
+
+<input type="submit" value="Register">
+<input type="reset" value="Reset">
+
+</form>
+
+</main>
+
+<hr>
+
+<footer>
+    <p>© 2026 Student Career & Placement Portal</p>
+</footer>
+</body>
+</html>
